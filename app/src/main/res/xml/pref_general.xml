@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="show_strongs"
+        android:title="Show Strongs reference"
+        android:summary="This shows the strongs reference/numbers to the word. Tapping at it shows the entry."
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="show_concordance"
+        android:title="Show Strongs Concordance"
+        android:summary="Shows the english concordance."
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="show_transliteration"
+        android:title="Show Transliteration Items"
+        android:summary="Shows the transliteration entry."
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="show_lemma"
+        android:title="Show Lemma Tags"
+        android:summary="Shows lemma entry."
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:title="Font Size of Hebrew Word"
+        android:key="font_size_word"
+        android:defaultValue="2"
+        android:entries="@array/font_array"
+        android:entryValues="@array/font_array_values"/>
+</PreferenceScreen>
