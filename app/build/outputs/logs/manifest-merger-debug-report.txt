@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\progressfragment-1.4.0.aar\26af0bfb2e1452833c2157c04fe70101\AndroidManifest.xml:1:1-7:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4c08ca40237dce1892a38a8365988760\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\771626712c04347981ab18c294df8dd3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8124976f1a07334a9bf3388cc3226af\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b714e1dd35a0cf59154202a1fdb6006d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\700a8ef2e0a9703d98e3b6626f91c5be\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5499fef600ccb99b78bb644ed1805d3a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\be605b4dd7f3a6947f11ae156d0d397d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2386223fa977d0d6bfc7d89a7001e560\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:4:22-78
+application
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:5:5-32:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\progressfragment-1.4.0.aar\26af0bfb2e1452833c2157c04fe70101\AndroidManifest.xml:5:5-19
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\progressfragment-1.4.0.aar\26af0bfb2e1452833c2157c04fe70101\AndroidManifest.xml:5:5-19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4c08ca40237dce1892a38a8365988760\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4c08ca40237dce1892a38a8365988760\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\771626712c04347981ab18c294df8dd3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\771626712c04347981ab18c294df8dd3\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8124976f1a07334a9bf3388cc3226af\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8124976f1a07334a9bf3388cc3226af\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b714e1dd35a0cf59154202a1fdb6006d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b714e1dd35a0cf59154202a1fdb6006d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\700a8ef2e0a9703d98e3b6626f91c5be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\700a8ef2e0a9703d98e3b6626f91c5be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5499fef600ccb99b78bb644ed1805d3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5499fef600ccb99b78bb644ed1805d3a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\be605b4dd7f3a6947f11ae156d0d397d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\be605b4dd7f3a6947f11ae156d0d397d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2386223fa977d0d6bfc7d89a7001e560\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2386223fa977d0d6bfc7d89a7001e560\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:8:9-57
+	android:icon
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:7:9-36
+	android:allowBackup
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:9:9-40
+activity#stefankmitph.hiot.SelectionActivity
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:10:9-20:20
+	android:label
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:13:13-50
+	android:configChanges
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:11:13-74
+	android:theme
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:14:13-63
+	android:name
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:12:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:18:27-74
+activity#stefankmitph.hiot.MainActivity
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:label
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:22:13-58
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:24:13-26:71
+	android:value
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:26:17-68
+	android:name
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:25:17-63
+activity#stefankmitph.hiot.SettingsActivity
+ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:28:9-31:20
+	android:label
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:30:13-60
+	android:name
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml:29:13-62
+uses-sdk
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\progressfragment-1.4.0.aar\26af0bfb2e1452833c2157c04fe70101\AndroidManifest.xml:3:5-72
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\progressfragment-1.4.0.aar\26af0bfb2e1452833c2157c04fe70101\AndroidManifest.xml:3:5-72
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4c08ca40237dce1892a38a8365988760\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4c08ca40237dce1892a38a8365988760\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\771626712c04347981ab18c294df8dd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\771626712c04347981ab18c294df8dd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8124976f1a07334a9bf3388cc3226af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8124976f1a07334a9bf3388cc3226af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b714e1dd35a0cf59154202a1fdb6006d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b714e1dd35a0cf59154202a1fdb6006d\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\700a8ef2e0a9703d98e3b6626f91c5be\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\700a8ef2e0a9703d98e3b6626f91c5be\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5499fef600ccb99b78bb644ed1805d3a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5499fef600ccb99b78bb644ed1805d3a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\be605b4dd7f3a6947f11ae156d0d397d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\be605b4dd7f3a6947f11ae156d0d397d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2386223fa977d0d6bfc7d89a7001e560\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2386223fa977d0d6bfc7d89a7001e560\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_DEV_PACK\PROJECTS\bible\hiot-master\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4c08ca40237dce1892a38a8365988760\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\4c08ca40237dce1892a38a8365988760\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\771626712c04347981ab18c294df8dd3\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\771626712c04347981ab18c294df8dd3\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8124976f1a07334a9bf3388cc3226af\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c8124976f1a07334a9bf3388cc3226af\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b714e1dd35a0cf59154202a1fdb6006d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\b714e1dd35a0cf59154202a1fdb6006d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\700a8ef2e0a9703d98e3b6626f91c5be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\700a8ef2e0a9703d98e3b6626f91c5be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5499fef600ccb99b78bb644ed1805d3a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\5499fef600ccb99b78bb644ed1805d3a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\be605b4dd7f3a6947f11ae156d0d397d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\be605b4dd7f3a6947f11ae156d0d397d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2386223fa977d0d6bfc7d89a7001e560\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2386223fa977d0d6bfc7d89a7001e560\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\36240f9b64b5dc1484449418a136365b\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Peace\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4620ebdddb4058294bae2a4fe2f09617\AndroidManifest.xml:26:13-58
