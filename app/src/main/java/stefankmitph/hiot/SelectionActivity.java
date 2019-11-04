@@ -3,8 +3,9 @@ package stefankmitph.hiot;
 import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v7.app.ActionBarActivity;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,7 +21,7 @@ import java.util.List;
 import stefankmitph.model.BookNavigator;
 import stefankmitph.model.DatabaseManager;
 
-public class SelectionActivity extends ActionBarActivity {
+public class SelectionActivity extends AppCompatActivity {
 
     private Spinner spinnerChapters;
     private Spinner spinnerBooks;

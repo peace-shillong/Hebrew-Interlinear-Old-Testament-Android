@@ -9,15 +9,15 @@ android {
             storePassword 'topica'
         }
     }
-    compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId 'stefankmitph.hiot'
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0.0"
-        signingConfig signingConfigs.sign
+        //signingConfig signingConfigs.sign
     }
     buildTypes {
         release {
@@ -25,7 +25,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         debug {
-            signingConfig signingConfigs.sign
+            //signingConfig signingConfigs.sign
         }
     }
     testOptions {
@@ -36,13 +36,13 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile files('libs/opencsv/opencsv-2.4.jar')
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.robolectric:robolectric:3.+'
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.github.johnkil.android-progressfragment:progressfragment:1.4.+'
-    compile 'com.j256.ormlite:ormlite-core:4.23'
-    compile 'com.j256.ormlite:ormlite-android:4.45'
-    compile 'com.android.support:support-v4:26.1.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation files('libs/opencsv/opencsv-2.4.jar')
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.robolectric:robolectric:3.+'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.github.johnkil.android-progressfragment:progressfragment:1.4.+'
+    implementation 'com.j256.ormlite:ormlite-core:4.23'
+    implementation 'com.j256.ormlite:ormlite-android:4.45'
+    implementation 'com.android.support:support-v4:28.0.0'
 }

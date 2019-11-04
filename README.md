@@ -1,12 +1,12 @@
 # Hebrew-Interlinear-Old-Testament-Android
 This is an updated Version of the HIOT Project: by @stefankmitph find it here https://github.com/stefankmitph/hiot
 
-### Updated build files
-Folowing updates for project to work with Android 3.0.1 
+### Updated build files as on 04/11/2019
+Folowing updates for project to work with Android 3.4.2
 minSdkVersion 16
-compileSdkVersion 26
-buildToolsVersion "26.0.2"
+compileSdkVersion 28
+buildToolsVersion "28.0.3"
 
-gradle version 3.0.1
+gradle version 3.4.2
 
-gradle-wrapper properties : 4.1
+gradle-wrapper properties : 5.1.1

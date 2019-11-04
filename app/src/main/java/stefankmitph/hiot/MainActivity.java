@@ -9,8 +9,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,7 +22,7 @@ import java.util.List;
 import stefankmitph.model.DatabaseManager;
 import stefankmitph.model.Word;
 
-public class MainActivity extends ActionBarActivity implements ActivityObjectProvider {
+public class MainActivity extends AppCompatActivity implements ActivityObjectProvider {
 
     private SQLiteDatabase database;
     private Bundle bundle;
