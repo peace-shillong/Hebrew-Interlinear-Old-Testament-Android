@@ -10,7 +10,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        tools:context="stefankmitph.hiot.SelectionActivity">
+        tools:context="peace_shillong.hiot.SelectionActivity">
 
         <TextView
             android:id="@+id/textView_title"
@@ -28,18 +28,12 @@
             android:paddingBottom="8dp"
             android:text="@string/app_description" />
 
-        <TextView
-            android:id="@+id/textView_github"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/textView_description"
-            android:text="@string/text_github" />
 
         <TextView
             android:id="@+id/booklabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/textView_github"
+            android:layout_below="@id/textView_description"
             android:paddingTop="16dp"
             android:text="@string/booklabel"
             android:textAppearance="?android:attr/textAppearanceMedium" />
@@ -89,5 +83,19 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/spinnerverses"
             android:text="go" />
+        <TextView
+            android:id="@+id/textView_origin"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonGo"
+            android:text="@string/text_origin" />
+        <TextView
+            android:id="@+id/textView_github"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_origin"
+            android:text="@string/text_github" />
     </RelativeLayout>
 </ScrollView>

@@ -18,8 +18,20 @@
         android:label="Hebrew Interlinear Old Testament"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.peace_shillong.hiot.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+
+            <!-- ressource file to create -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
         <activity
-            android:name="stefankmitph.hiot.SelectionActivity"
+            android:name="peace_shillong.hiot.SelectionActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="Hebrew Interlinear OT"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
@@ -30,14 +42,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="stefankmitph.hiot.MainActivity"
+            android:name="peace_shillong.hiot.MainActivity"
             android:label="@string/app_name" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="stefankmitph.hiot.SelectionActivity" />
+                android:value="peace_shillong.hiot.SelectionActivity" />
         </activity>
         <activity
-            android:name="stefankmitph.hiot.SettingsActivity"
+            android:name="peace_shillong.hiot.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
 

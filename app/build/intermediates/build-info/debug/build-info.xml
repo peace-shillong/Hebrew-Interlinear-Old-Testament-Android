@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="3.4.2"
-    timestamp="1572851808577"
+    timestamp="1574152385440"
     token="795996543972474991"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="547" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="292" />
+        duration="363" />
     <task
         name="verifier"
-        duration="250" />
+        duration="371" />
 
     <artifact
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -30,19 +30,10 @@
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -51,13 +42,22 @@
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
+        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
         location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -65,7 +65,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1572851808577"
+        timestamp="1574152385440"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -74,19 +74,10 @@
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -95,13 +86,22 @@
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="F:\peace\Personal\Hebrew-Interlinear-Old-Testament-Android-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"

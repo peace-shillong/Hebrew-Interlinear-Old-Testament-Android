@@ -12,12 +12,12 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int content_container = 0x7f080032;
-        public static final int grid = 0x7f080041;
-        public static final int grid_container = 0x7f080042;
-        public static final int list_container = 0x7f080051;
-        public static final int progress_container = 0x7f080060;
-        public static final int progress_text = 0x7f080062;
+        public static final int content_container = 0x7f080034;
+        public static final int grid = 0x7f080043;
+        public static final int grid_container = 0x7f080044;
+        public static final int list_container = 0x7f080053;
+        public static final int progress_container = 0x7f080062;
+        public static final int progress_text = 0x7f080064;
     }
     public static final class layout {
         private layout() {}

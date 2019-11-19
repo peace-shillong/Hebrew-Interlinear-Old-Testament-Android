@@ -109,6 +109,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="colorWhite">#fefefe</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -337,7 +338,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_export">Export Image</string>
     <string name="action_settings">Settings</string>
+    <string name="action_share">Share Verse as Image</string>
     <string name="app_caption">Hebrew Interlinear Old Testament</string>
     <string name="app_description">Free and open source version of the Hebrew Old Testament including Strong\'s references, concordances, transliteration and lemmas.</string>
     <string name="app_name">HIOT</string>
@@ -375,7 +378,8 @@
     <string name="pref_user_profile">User Profile</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="text_github">Feel free to contribute, copy or steal or whatever you like to do with this code @ <a href="https://github.com/stefankmitph/hiot">github.com/stefankmitph/hiot</a></string>
+    <string name="text_github">Feel free to contribute, copy or steal or do whatever you like to do with this code @ <a href="https://github.com/peace-shillong/Hebrew-Interlinear-Old-Testament-Android">github.com/peace_shillong/Hebrew-Interlinear-Old-Testament-Android</a></string>
+    <string name="text_origin">An Updated version of the repository from <a href="https://github.com/stefankmitph/hiot">github.com/stefankmitph/hiot</a></string>
     <string name="title_activity_selection">Choose</string>
     <string name="title_activity_settings">Settings</string>
     <string name="verselabel">Verse</string>
@@ -386,7 +390,9 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <!-- Customize your theme here.-->
+        <item name="android:colorBackground">@color/colorWhite</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

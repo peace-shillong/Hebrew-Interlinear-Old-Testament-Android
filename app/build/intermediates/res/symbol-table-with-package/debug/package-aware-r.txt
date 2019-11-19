@@ -339,6 +339,7 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color colorWhite
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -622,6 +623,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_divider
+id action_export
 id action_image
 id action_menu_divider
 id action_menu_presenter
@@ -629,6 +631,7 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_settings
+id action_share
 id action_text
 id actions
 id activity_chooser_view_content
@@ -749,6 +752,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView_description
 id textView_github
+id textView_origin
 id textView_title
 id time
 id title
@@ -863,7 +867,9 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_export
 string action_settings
+string action_share
 string app_caption
 string app_description
 string app_name
@@ -900,6 +906,7 @@ string pref_user_profile
 string search_menu_title
 string status_bar_notification_info_overflow
 string text_github
+string text_origin
 string title_activity_selection
 string title_activity_settings
 string verselabel
@@ -1302,6 +1309,7 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml file_paths
 xml pref_data_sync
 xml pref_general
 xml pref_headers
