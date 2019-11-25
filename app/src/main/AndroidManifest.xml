@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="peace_shillong.hiot" >
+    xmlns:tools="http://schemas.android.com/tools"
+    package="peace_shillong.hiot">
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="Hebrew Interlinear Old Testament"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        >
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="com.peace_shillong.hiot.provider"
             android:exported="false"
             android:grantUriPermissions="true">
-
             <!-- ressource file to create -->
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"

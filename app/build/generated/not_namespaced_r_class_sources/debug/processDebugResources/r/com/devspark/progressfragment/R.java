@@ -12,18 +12,18 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int content_container = 0x7f080034;
-        public static final int grid = 0x7f080043;
-        public static final int grid_container = 0x7f080044;
-        public static final int list_container = 0x7f080053;
-        public static final int progress_container = 0x7f080062;
-        public static final int progress_text = 0x7f080064;
+        public static final int content_container = 0x7f090036;
+        public static final int grid = 0x7f090051;
+        public static final int grid_container = 0x7f090052;
+        public static final int list_container = 0x7f090064;
+        public static final int progress_container = 0x7f09007c;
+        public static final int progress_text = 0x7f09007e;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int fragment_progress = 0x7f0a001f;
-        public static final int fragment_progress_grid = 0x7f0a0020;
-        public static final int fragment_progress_list = 0x7f0a0021;
+        public static final int fragment_progress = 0x7f0c002d;
+        public static final int fragment_progress_grid = 0x7f0c002e;
+        public static final int fragment_progress_list = 0x7f0c002f;
     }
 }

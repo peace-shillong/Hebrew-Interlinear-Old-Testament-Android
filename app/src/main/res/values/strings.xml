@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HIOT</string>
+    <string name="app_name">Hebrew Interlinear Old Testament</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -60,4 +60,5 @@
     <string name="missing_verse_link">For more information visit <a href="http://en.wikipedia.org/wiki/List_of_Bible_verses_not_included_in_modern_translations">this link</a>.</string>
     <string name="app_caption">Hebrew Interlinear Old Testament</string>
     <string name="app_description">Free and open source version of the Hebrew Old Testament including Strong\'s references, concordances, transliteration and lemmas.</string>
+    <string name="text_permission">Please allow the app to write to storage so that you can export and share verse</string>
 </resources>

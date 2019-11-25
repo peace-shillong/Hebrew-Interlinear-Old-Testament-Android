@@ -36,3 +36,7 @@ gradle-wrapper properties : 5.1.1
 		Unable to export pdf with Hebrew text, we can try itext7 later and see if it works
 
 	6. Changed the activity_selection.xml layout inside the res->layout folder
+
+	7. Added request for Storage permissions for android N and above
+
+	8. Migrated to Androidx artifacts

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="stefankmitph.hiot"
+    package="peace_shillong.hiot"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -12,14 +12,14 @@
 
     <application
         android:allowBackup="true"
-        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/icon"
         android:label="Hebrew Interlinear Old Testament"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="com.peace_shillong.hiot.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
@@ -52,10 +52,13 @@
             android:name="peace_shillong.hiot.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="stefankmitph.hiot.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="peace_shillong.hiot.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

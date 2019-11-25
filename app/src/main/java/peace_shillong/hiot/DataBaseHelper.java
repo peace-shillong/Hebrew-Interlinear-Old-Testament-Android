@@ -24,7 +24,7 @@ import peace_shillong.model.Word;
 
 public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
 
-    private static String DB_PATH = "/data/data/stefankmitph.hiot/databases/";
+    private static String DB_PATH = "/data/data/peace_shillong.hiot/databases/";
 
     private static String DB_NAME = "ot.sqlite";
 

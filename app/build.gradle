@@ -12,7 +12,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId 'stefankmitph.hiot'
+        applicationId 'peace_shillong.hiot'
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
@@ -40,10 +40,11 @@ dependencies {
     implementation files('libs/opencsv/opencsv-2.4.jar')
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.robolectric:robolectric:3.+'
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation 'com.github.johnkil.android-progressfragment:progressfragment:1.4.+'
     implementation 'com.j256.ormlite:ormlite-core:4.23'
     implementation 'com.j256.ormlite:ormlite-android:4.45'
-    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     //implementation project(path: ':apwlibrary')
+    implementation 'com.karumi:dexter:6.0.0'
 }

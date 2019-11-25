@@ -1,11 +1,12 @@
 package peace_shillong.hiot;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
-
+import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -13,10 +14,17 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import com.karumi.dexter.Dexter;
+import com.karumi.dexter.PermissionToken;
+import com.karumi.dexter.listener.PermissionDeniedResponse;
+import com.karumi.dexter.listener.PermissionGrantedResponse;
+import com.karumi.dexter.listener.PermissionRequest;
+import com.karumi.dexter.listener.single.PermissionListener;
 import java.io.IOException;
 import java.util.List;
-
 import peace_shillong.model.BookNavigator;
 import peace_shillong.model.DatabaseManager;
 
@@ -31,6 +39,7 @@ public class SelectionActivity extends AppCompatActivity {
     private int chapter;
     private int verse;
     private Button buttonGo;
+    private TextView permissionText;
 
     private SQLiteDatabase initializeDatabase(Context context) {
         DataBaseHelper dataBaseHelper = new DataBaseHelper(context);
@@ -52,7 +61,28 @@ public class SelectionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selection);
 
-        buttonGo = (Button) findViewById(R.id.buttonGo);
+        //request permission
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            //Log.d("Load","Permission");
+            permissionText=findViewById(R.id.textView_permission);
+            Dexter.withActivity(this)
+                    .withPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                    .withListener(new PermissionListener() {
+                        @Override public void onPermissionGranted(PermissionGrantedResponse response) {
+                            //Permissions Granted
+                        }
+                        @Override public void onPermissionDenied(PermissionDeniedResponse response) {
+                            /*Permissions not granted*/
+                            permissionText.setVisibility(View.VISIBLE);
+                        }
+                        @Override public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {
+                            token.continuePermissionRequest();
+                        }
+                    }).check();
+        }
+
+
+        buttonGo = findViewById(R.id.buttonGo);
         buttonGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

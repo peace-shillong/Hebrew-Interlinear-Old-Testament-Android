@@ -4,16 +4,18 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
-import android.preference.PreferenceManager;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -124,6 +126,7 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
             super(fragmentManager);
         }
 
+
         @Override
         public Fragment getItem(int position) {
             return VerseFragment.newInstance(book, chapter, position + 1);
@@ -194,7 +197,7 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
-        android.support.v7.app.ActionBar supportActionBar = getSupportActionBar();
+        ActionBar supportActionBar = getSupportActionBar();
         if (supportActionBar != null) {
             supportActionBar.setHomeButtonEnabled(false); // disable the button
             supportActionBar.setDisplayHomeAsUpEnabled(false); // remove the left caret
