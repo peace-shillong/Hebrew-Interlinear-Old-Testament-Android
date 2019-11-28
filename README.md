@@ -1,5 +1,5 @@
 # Hebrew-Interlinear-Old-Testament-Android
-This is an updated Version of the HIOT Project: by @stefankmitph find it here https://github.com/stefankmitph/hiot
+This is an updated Version of the HIOT Project: by [@stefankmitph]( https://github.com/stefankmitph ) find it here https://github.com/stefankmitph/hiot
 
 ### Updated build files as on 04/11/2019
 Folowing updates for project to work with Android 3.4.2
@@ -46,4 +46,4 @@ gradle-wrapper properties : 5.1.1
 	
 ### Special Thanks
 
-  @joshhazelhurst123 for correcting and adding the missing text from the sqlite database
+  [@joshhazelhurst123]( https://github.com/joshhazelhurst123 ) for correcting and adding the missing text from the sqlite database
