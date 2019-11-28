@@ -39,4 +39,11 @@ gradle-wrapper properties : 5.1.1
 
 	7. Added request for Storage permissions for android N and above
 
-	8. Migrated to Androidx artifacts
+	8. Migrated to AndroidX artifacts
+
+	9. Spinners in Selection now displays Books, Chapters and Verse in Dialog box for easy access
+
+	
+### Special Thanks
+
+  @joshhazelhurst123 for correcting and adding the missing text from the sqlite database
