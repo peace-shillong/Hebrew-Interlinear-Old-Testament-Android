@@ -11,6 +11,28 @@ gradle version 3.4.2
 
 gradle-wrapper properties : 5.1.1
 
+## Get it on Google Play
+![googleplay](https://github.com/peace-shillong/Hebrew-Interlinear-Old-Testament-Android/blob/master/images/play_min.png "Google Play Link") 
+
+### Screenshot
+
+![screen](https://github.com/peace-shillong/Hebrew-Interlinear-Old-Testament-Android/blob/master/images/hiot_design_1.jpg "Scrennshot") 
+
+
+### Change log v1.0.1
+
+	1. Fixed typos in database 
+		- 2 Kings 25
+		- Ruth 4
+		- 2 Samuel 24
+		- 1 Chronicles 29
+		- 2 Chronicles 36
+		- Ecclesiastes 12
+		- Isaiah 66
+		- Joel 3
+
+
+
 ### Change log v1.0.0
 
 	1. Base Packaged name changed from stefankmitp to peace_shillong
