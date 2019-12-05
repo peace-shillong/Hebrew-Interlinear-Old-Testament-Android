@@ -12,7 +12,10 @@ gradle version 3.4.2
 gradle-wrapper properties : 5.1.1
 
 ## Get it on Google Play
-![googleplay](https://github.com/peace-shillong/Hebrew-Interlinear-Old-Testament-Android/blob/master/images/play_min.png "Google Play Link") 
+
+[![googleplaylink](https://github.com/peace-shillong/Hebrew-Interlinear-Old-Testament-Android/blob/master/images/play_min.png "Google Play Link")](https://play.google.com/store/apps/details?id=peace_shillong.hiot "Play Store link")
+
+Click on the image to open google play store
 
 ### Screenshot
 
