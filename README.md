@@ -21,6 +21,10 @@ Click on the image to open google play store
 
 ![screen](https://github.com/peace-shillong/Hebrew-Interlinear-Old-Testament-Android/blob/master/images/hiot_design_1.jpg "Scrennshot") 
 
+### Todo 
+
+	1. [ ] Bookmark Verse
+	2. [ ] Search for text in a particular Book
 
 ### Change log v1.0.1
 
