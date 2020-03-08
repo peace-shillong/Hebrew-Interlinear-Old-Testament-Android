@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Peace\\.gradle\\caches\\transforms-2\\files-2.1\\5c8a1dae8817b8834d6f09979a1abc64\\appcompat-1.0.2\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

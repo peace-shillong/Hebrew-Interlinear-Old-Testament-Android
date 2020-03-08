@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="peace_shillong.hiot"
     android:targetSandboxVersion="2"
-    android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionCode="3"
+    android:versionName="1.0.2" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -17,7 +17,6 @@
         android:debuggable="true"
         android:icon="@mipmap/icon"
         android:label="Hebrew Interlinear Old Testament"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -38,6 +37,7 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -56,11 +56,6 @@
         <activity
             android:name="com.karumi.dexter.DexterActivity"
             android:theme="@style/Dexter.Internal.Theme.Transparent" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="peace_shillong.hiot.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>

@@ -343,7 +343,8 @@ public class VerseFragment extends Fragment {
             }
             //screen.destroyDrawingCache();
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+            Toast.makeText(context,"Unable to Save Image to Storage, Please check app permission",Toast.LENGTH_SHORT).show();
             //Log.d("LOG", "Image is too large, Please Crop the image with a smaller size");
         }
     }

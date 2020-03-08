@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\peace\\Personal\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "F:\\peace\\Personal\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "F:\\peace\\Personal\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\values-w820dp\\strings.xml",
+                    "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\values-w820dp\\strings.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

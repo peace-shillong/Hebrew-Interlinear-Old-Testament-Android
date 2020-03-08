@@ -43,13 +43,15 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
     }
 
     private void initializeData(List<Word> words) {
-        map = new HashMap<>();
-        for(Word word : words) {
-            if(!map.containsKey(word.getVerse()))
-                map.put(word.getVerse(), new ArrayList<Word>());
+        try {
+            map = new HashMap<>();
+            for (Word word : words) {
+                if (!map.containsKey(word.getVerse()))
+                    map.put(word.getVerse(), new ArrayList<Word>());
 
-            map.get(word.getVerse()).add(word);
-        }
+                map.get(word.getVerse()).add(word);
+            }
+        }catch (NullPointerException e){}
     }
 
     @Override
@@ -69,20 +71,20 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
 
         DatabaseManager manager = DatabaseManager.getInstance();
         List<Word> words = manager.getChapter(book, chapter);
+        try {
+            initializeData(words);
 
-        initializeData(words);
+            setActionBarTitle(String.format("%s %d:%d", book, this.chapter, verse));
 
-        setActionBarTitle(String.format("%s %d:%d", book, this.chapter, verse));
+            myPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
 
-        myPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
-
-        final ViewPager myPager = (ViewPager) findViewById(R.id.home_panels_pager);
-        myPager.setOverScrollMode(View.OVER_SCROLL_NEVER);
-        myPager.setOffscreenPageLimit(5);
-        myPager.setAdapter(myPagerAdapter);
-        myPager.setCurrentItem(verse - 1);
-        myPager.setOnPageChangeListener(new CircularViewPagerHandler(myPager));
-
+            final ViewPager myPager = (ViewPager) findViewById(R.id.home_panels_pager);
+            myPager.setOverScrollMode(View.OVER_SCROLL_NEVER);
+            myPager.setOffscreenPageLimit(5);
+            myPager.setAdapter(myPagerAdapter);
+            myPager.setCurrentItem(verse - 1);
+            myPager.addOnPageChangeListener(new CircularViewPagerHandler(myPager)); // mod
+        }catch (Exception e){}
     }
 
     @Override

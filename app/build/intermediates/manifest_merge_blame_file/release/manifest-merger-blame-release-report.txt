@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="peace_shillong.hiot"
+4    android:versionCode="3"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:5:5-81
+11-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:5:22-78
+12
+13    <application
+13-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:6:5-44:19
+14        android:allowBackup="true"
+14-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\880f3698d2460c7d843fcf2786f0b307\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:icon="@mipmap/icon"
+16-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:8:9-36
+17        android:label="Hebrew Interlinear Old Testament"
+17-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:9:9-57
+18        android:theme="@style/AppTheme" >
+18-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:10:9-40
+19        <provider
+19-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:12:9-21:20
+20            android:name="androidx.core.content.FileProvider"
+20-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:13:13-62
+21            android:authorities="com.peace_shillong.hiot.provider"
+21-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:14:13-67
+22            android:exported="false"
+22-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:15:13-37
+23            android:grantUriPermissions="true" >
+23-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:16:13-47
+24
+25            <!-- ressource file to create -->
+26            <meta-data
+26-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:18:13-20:64
+27                android:name="android.support.FILE_PROVIDER_PATHS"
+27-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:19:17-67
+28                android:resource="@xml/file_paths" />
+28-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:20:17-51
+29        </provider>
+30
+31        <activity
+31-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:22:9-32:20
+32            android:name="peace_shillong.hiot.SelectionActivity"
+32-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:24:13-65
+33            android:configChanges="orientation|screenSize|keyboardHidden"
+33-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:23:13-74
+34            android:label="Hebrew Interlinear OT"
+34-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:25:13-50
+35            android:theme="@style/Theme.AppCompat.NoActionBar" >
+35-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:26:13-63
+36            <intent-filter>
+36-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:27:13-31:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:28:17-69
+37-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:28:25-66
+38                <action android:name="android.intent.action.VIEW" />
+38-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:29:17-69
+38-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:29:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:30:17-77
+40-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:30:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:33:9-39:20
+44            android:name="peace_shillong.hiot.MainActivity"
+44-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:34:13-60
+45            android:label="@string/app_name" >
+45-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:35:13-45
+46            <meta-data
+46-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:36:13-38:73
+47                android:name="android.support.PARENT_ACTIVITY"
+47-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:37:17-63
+48                android:value="peace_shillong.hiot.SelectionActivity" />
+48-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:38:17-70
+49        </activity>
+50        <activity
+50-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:40:9-43:20
+51            android:name="peace_shillong.hiot.SettingsActivity"
+51-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:41:13-64
+52            android:label="@string/title_activity_settings" >
+52-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:42:13-60
+53        </activity>
+54        <activity
+54-->[com.karumi:dexter:6.0.0] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\103d0e8c3e88bb589cc19d5e3336563e\jetified-dexter-6.0.0\AndroidManifest.xml:27:9-29:72
+55            android:name="com.karumi.dexter.DexterActivity"
+55-->[com.karumi:dexter:6.0.0] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\103d0e8c3e88bb589cc19d5e3336563e\jetified-dexter-6.0.0\AndroidManifest.xml:28:13-60
+56            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+56-->[com.karumi:dexter:6.0.0] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\103d0e8c3e88bb589cc19d5e3336563e\jetified-dexter-6.0.0\AndroidManifest.xml:29:13-69
+57    </application>
+58
+59</manifest>

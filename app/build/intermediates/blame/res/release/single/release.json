@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_selection.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\layout\\activity_selection.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\xml_pref_general.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\xml_file_paths.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\drawable_progress.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\drawable\\progress.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_icon.png.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\mipmap-hdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\xml_pref_notification.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\xml\\pref_notification.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_selection.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\menu\\menu_selection.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\xml_pref_headers.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\xml_pref_data_sync.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\menu_menu_main.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_fragment.xml.flat",
+        "source": "D:\\Android_DEV_PACK\\Android_STUDIO_PROJECTS\\PC Hebrew-Interlinear-Old-Testament-Android-master\\Hebrew-Interlinear-Old-Testament-Android-master\\app\\src\\main\\res\\layout\\activity_fragment.xml"
+    }
+]
