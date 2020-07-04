@@ -30,7 +30,7 @@ public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
 
     private static final String SP_KEY_DB_VER = "db_ver";
 
-    private static final int DB_VERSION = 2;
+    private static final int DB_VERSION = 3;
 
     private SQLiteDatabase myDataBase;
 
@@ -42,9 +42,10 @@ public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
      * @param context
      */
     public DataBaseHelper(Context context) {
-
         super(context, DB_NAME, null, DB_VERSION);
         this.myContext = context;
+        //DB_PATH=context.getDatabasePath(DB_NAME).getPath(); doesn't work cuz it takes external storage db
+        Log.d("DB",DB_PATH);
         initialize();
     }
 
@@ -104,10 +105,14 @@ public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
     private boolean checkDataBase(){
 
         SQLiteDatabase checkDB = null;
+        File dbFile=null;
 
         try{
             String myPath = DB_PATH + DB_NAME;
-            checkDB = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
+            //checkDB = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
+            //Fixing the checkDB error that crashes all phones on 29th June 2020
+            dbFile = myContext.getDatabasePath(DB_NAME);
+            return dbFile.exists();
 
         }catch(SQLiteException e){
 
@@ -121,7 +126,9 @@ public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
 
         }
 
-        return checkDB != null ? true : false;
+        //return checkDB != null ? true : false;
+        assert dbFile != null;
+        return dbFile.exists();
     }
 
     /**
@@ -222,4 +229,11 @@ public class DataBaseHelper extends OrmLiteSqliteOpenHelper {
         }
         return booksDao;
     }
+
+    @Override
+    public void onOpen(SQLiteDatabase db) {
+        super.onOpen(db);
+        db.disableWriteAheadLogging();
+    }
+
 }

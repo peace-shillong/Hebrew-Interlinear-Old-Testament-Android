@@ -9,6 +9,7 @@ import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -58,11 +59,11 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        try {
 
+        typeface = Typeface.createFromAsset(MainActivity.this.getAssets(), "fonts/Cardo104s.ttf");
 
-        typeface = Typeface.createFromAsset(this.getAssets(), "fonts/Cardo104s.ttf");
-
-        DatabaseManager.init(this);
+        DatabaseManager.init(MainActivity.this);
 
         bundle = getIntent().getExtras();
         book = bundle.getString("book");
@@ -71,10 +72,10 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
 
         DatabaseManager manager = DatabaseManager.getInstance();
         List<Word> words = manager.getChapter(book, chapter);
-        try {
+
             initializeData(words);
 
-            setActionBarTitle(String.format("%s %d:%d", book, this.chapter, verse));
+            setActionBarTitle(String.format("%s %d:%d", book, MainActivity.this.chapter, verse));
 
             myPagerAdapter = new MyPagerAdapter(getSupportFragmentManager());
 
@@ -84,12 +85,14 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
             myPager.setAdapter(myPagerAdapter);
             myPager.setCurrentItem(verse - 1);
             myPager.addOnPageChangeListener(new CircularViewPagerHandler(myPager)); // mod
-        }catch (Exception e){}
+        }catch (Exception e){
+            Toast.makeText(MainActivity.this, "Error "+e.getMessage(), Toast.LENGTH_LONG).show();
+        }
     }
 
     @Override
     public SQLiteDatabase getDatabase() {
-        return this.database;
+        return MainActivity.this.database;
     }
 
     @Override
@@ -109,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
     public Bundle getPreferences() {
 
         SharedPreferences sharedPrefs = PreferenceManager
-                .getDefaultSharedPreferences(this);
+                .getDefaultSharedPreferences(MainActivity.this);
 
         Bundle bundle = new Bundle();
         bundle.putBoolean("show_strongs", sharedPrefs.getBoolean("show_strongs", true));
@@ -218,7 +221,7 @@ public class MainActivity extends AppCompatActivity implements ActivityObjectPro
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent i = new Intent(this, SettingsActivity.class);
+            Intent i = new Intent(MainActivity.this, SettingsActivity.class);
             startActivityForResult(i, RESULT_SETTINGS);
             return true;
         }
