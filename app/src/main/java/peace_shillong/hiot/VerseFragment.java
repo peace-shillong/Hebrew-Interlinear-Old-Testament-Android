@@ -197,13 +197,13 @@ public class VerseFragment extends Fragment {
 
         switch(fontSizeWord) {
             case "0": // small
-                fontResId = android.R.style.TextAppearance_Small;
+                fontResId = R.style.font_small;//android.R.style.TextAppearance_Small;
                 break;
             case "1": // medium
-                fontResId = android.R.style.TextAppearance_Medium;
+                fontResId = R.style.font_medium;//android.R.style.TextAppearance_Medium;
                 break;
-            case "2": // medium
-                fontResId = android.R.style.TextAppearance_Large;
+            case "2": // Large
+                fontResId = R.style.font_large;//android.R.style.TextAppearance_Large;
                 break;
         }
 

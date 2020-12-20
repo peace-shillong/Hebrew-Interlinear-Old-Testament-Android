@@ -56,7 +56,9 @@ public class SelectionActivity extends AppCompatActivity {
             database = dataBaseHelper.getReadableDatabase();
         } catch (Exception e) {
             e.printStackTrace();
+            Toast.makeText(SelectionActivity.this,"DATABASE CREATION FAILED",Toast.LENGTH_LONG).show();
         }
+
         return database;
     }
 
@@ -67,7 +69,7 @@ public class SelectionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selection);
 
-        try {
+        //try {
             DatabaseManager.init(SelectionActivity.this);
             DatabaseManager instance = DatabaseManager.getInstance();
 
@@ -123,7 +125,7 @@ public class SelectionActivity extends AppCompatActivity {
                             }
                         }).check();
             }
-            String[] books = new String[] {"Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth", "1 Samuel", "Ezra", "Nehemiah", "Esther", "Job", "Psalm", "Proverbs", "Ecclesiastes", "Solomon", "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi"};
+            String[] books = new String[] {"Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy", "Joshua", "Judges", "Ruth", "1 Samuel","2 Samuel","1 Kings","2 Kings","1 Chronicles","2 Chronicless", "Ezra", "Nehemiah", "Esther", "Job", "Psalm", "Proverbs", "Ecclesiastes", "Solomon", "Isaiah", "Jeremiah", "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah", "Haggai", "Zechariah", "Malachi"};
 
             buttonGo = findViewById(R.id.buttonGo);
             buttonGo.setOnClickListener(new View.OnClickListener() {
@@ -199,12 +201,12 @@ public class SelectionActivity extends AppCompatActivity {
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                     Object itemAtPosition = parent.getItemAtPosition(position);
 
-                    try {
-                        chapter = Integer.parseInt(itemAtPosition.toString());
-                    } catch (NumberFormatException exception) {
-                        exception.printStackTrace();
-                        return;
-                    }
+                    String item =itemAtPosition.toString();
+                    item=item.replaceAll("[^0-9]]","");
+                    if(item.length()==0)
+                        item="1";
+                        chapter = Integer.parseInt(item);
+
 
                     List<String> list = navigator.getVerses(book, chapter);
                     ArrayAdapter<String> dataAdapter = new ArrayAdapter<>(SelectionActivity.this, android.R.layout.simple_spinner_item, list);
@@ -223,11 +225,15 @@ public class SelectionActivity extends AppCompatActivity {
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                     Object itemAtPosition = parent.getItemAtPosition(position);
 
-                    try {
-                        verse = Integer.parseInt((String) itemAtPosition);
-                    } catch (NumberFormatException e) {
-                        e.printStackTrace();
-                    }
+                    //try {
+                    String item =itemAtPosition.toString();
+                    item=item.replaceAll("[^0-9]]","");
+                    if(item.length()==0)
+                        item="1";
+                        verse = Integer.parseInt(item);
+//                    } catch (NumberFormatException e) {
+//                        e.printStackTrace();
+//                    }
                 }
 
                 @Override
@@ -238,11 +244,11 @@ public class SelectionActivity extends AppCompatActivity {
 
 
             //System.out.println(tempFix[0]);
-        }catch (Exception e)
-        {
-            //e.printStackTrace();
-            Toast.makeText(SelectionActivity.this, "Error  "+ e.getMessage() +" - "+Arrays.toString(e.getStackTrace()), Toast.LENGTH_LONG).show();
-        }
+//        }catch (Exception e)
+//        {
+//            //e.printStackTrace();
+//            Toast.makeText(SelectionActivity.this, "Error  "+ e.getMessage() +" - "+Arrays.toString(e.getStackTrace()), Toast.LENGTH_LONG).show();
+//        }
     }
 
     @Override

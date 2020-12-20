@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
 
 android {
     signingConfigs {
@@ -9,14 +11,14 @@ android {
             storePassword 'topica'
         }
     }
-    compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId 'peace_shillong.hiot'
         minSdkVersion 16
-        targetSdkVersion 28
-        versionCode 3
-        versionName "1.0.2"
+        targetSdkVersion 30
+        versionCode 10
+        versionName "1.1.0"
         //signingConfig signingConfigs.sign
     }
     buildTypes {
@@ -40,11 +42,15 @@ dependencies {
     implementation files('libs/opencsv/opencsv-2.4.jar')
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.robolectric:robolectric:3.+'
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'com.github.johnkil.android-progressfragment:progressfragment:1.4.+'
-    implementation 'com.j256.ormlite:ormlite-core:4.23'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.github.johnkil.android-progressfragment:progressfragment:1.4.0'
+    implementation 'com.j256.ormlite:ormlite-core:4.45'
     implementation 'com.j256.ormlite:ormlite-android:4.45'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     //implementation project(path: ':apwlibrary')
     implementation 'com.karumi:dexter:6.0.0'
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.google.firebase:firebase-crashlytics:17.1.0'
+
 }
