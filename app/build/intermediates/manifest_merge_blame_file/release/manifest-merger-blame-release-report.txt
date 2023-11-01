@@ -1,101 +1,230 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="peace_shillong.hiot"
-4    android:versionCode="3"
-5    android:versionName="1.0.2" >
+4    android:versionCode="11"
+5    android:versionName="1.1.1" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
-8-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
-9-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="19"
+8-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-11-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:5:5-81
-11-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:5:22-78
-12
-13    <application
-13-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:6:5-44:19
-14        android:allowBackup="true"
-14-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:7:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\880f3698d2460c7d843fcf2786f0b307\core-1.0.1\AndroidManifest.xml:22:18-86
-16        android:icon="@mipmap/icon"
-16-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:8:9-36
-17        android:label="Hebrew Interlinear Old Testament"
-17-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:9:9-57
-18        android:theme="@style/AppTheme" >
-18-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:10:9-40
-19        <provider
-19-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:12:9-21:20
-20            android:name="androidx.core.content.FileProvider"
-20-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:13:13-62
-21            android:authorities="com.peace_shillong.hiot.provider"
-21-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:14:13-67
-22            android:exported="false"
-22-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:15:13-37
-23            android:grantUriPermissions="true" >
-23-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:16:13-47
-24
-25            <!-- ressource file to create -->
-26            <meta-data
-26-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:18:13-20:64
-27                android:name="android.support.FILE_PROVIDER_PATHS"
-27-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:19:17-67
-28                android:resource="@xml/file_paths" />
-28-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:20:17-51
-29        </provider>
-30
-31        <activity
-31-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:22:9-32:20
-32            android:name="peace_shillong.hiot.SelectionActivity"
-32-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:24:13-65
-33            android:configChanges="orientation|screenSize|keyboardHidden"
-33-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:23:13-74
-34            android:label="Hebrew Interlinear OT"
-34-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:25:13-50
-35            android:theme="@style/Theme.AppCompat.NoActionBar" >
-35-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:26:13-63
-36            <intent-filter>
-36-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:27:13-31:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:28:17-69
-37-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:28:25-66
-38                <action android:name="android.intent.action.VIEW" />
-38-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:29:17-69
-38-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:29:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:30:17-77
-40-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:30:27-74
-41            </intent-filter>
-42        </activity>
-43        <activity
-43-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:33:9-39:20
-44            android:name="peace_shillong.hiot.MainActivity"
-44-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:34:13-60
-45            android:label="@string/app_name" >
-45-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:35:13-45
-46            <meta-data
-46-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:36:13-38:73
-47                android:name="android.support.PARENT_ACTIVITY"
-47-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:37:17-63
-48                android:value="peace_shillong.hiot.SelectionActivity" />
-48-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:38:17-70
-49        </activity>
-50        <activity
-50-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:40:9-43:20
-51            android:name="peace_shillong.hiot.SettingsActivity"
-51-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:41:13-64
-52            android:label="@string/title_activity_settings" >
-52-->D:\Android_DEV_PACK\Android_STUDIO_PROJECTS\PC Hebrew-Interlinear-Old-Testament-Android-master\Hebrew-Interlinear-Old-Testament-Android-master\app\src\main\AndroidManifest.xml:42:13-60
-53        </activity>
-54        <activity
-54-->[com.karumi:dexter:6.0.0] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\103d0e8c3e88bb589cc19d5e3336563e\jetified-dexter-6.0.0\AndroidManifest.xml:27:9-29:72
-55            android:name="com.karumi.dexter.DexterActivity"
-55-->[com.karumi:dexter:6.0.0] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\103d0e8c3e88bb589cc19d5e3336563e\jetified-dexter-6.0.0\AndroidManifest.xml:28:13-60
-56            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-56-->[com.karumi:dexter:6.0.0] C:\Users\Peace\.gradle\caches\transforms-2\files-2.1\103d0e8c3e88bb589cc19d5e3336563e\jetified-dexter-6.0.0\AndroidManifest.xml:29:13-69
-57    </application>
-58
-59</manifest>
+11-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:5:5-81
+11-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:7:5-66
+13-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:8:5-78
+14-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:9:5-68
+15-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:9:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+16-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/peace/.gradle/caches/transforms-3/65111c95aa74a10f97d58d12636d1c29/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+17-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/peace/.gradle/caches/transforms-3/65111c95aa74a10f97d58d12636d1c29/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+18
+19    <application
+19-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:10:5-51:19
+20        android:allowBackup="false"
+20-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:11:9-36
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.2.0] /Users/peace/.gradle/caches/transforms-3/279c6f7807e2c94388f5d3747ca4b7e2/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+22        android:icon="@mipmap/icon"
+22-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:12:9-36
+23        android:label="Hebrew Interlinear Old Testament"
+23-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:13:9-57
+24        android:requestLegacyExternalStorage="true"
+24-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:15:9-52
+25        android:theme="@style/AppTheme" >
+25-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:14:9-40
+26        <provider
+26-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:18:9-27:20
+27            android:name="androidx.core.content.FileProvider"
+27-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:19:13-62
+28            android:authorities="com.peace_shillong.hiot.provider"
+28-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:20:13-67
+29            android:exported="false"
+29-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:21:13-37
+30            android:grantUriPermissions="true" >
+30-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:22:13-47
+31
+32            <!-- ressource file to create -->
+33            <meta-data
+33-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:24:13-26:53
+34                android:name="android.support.FILE_PROVIDER_PATHS"
+34-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:25:17-67
+35                android:resource="@xml/file_paths" />
+35-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:26:17-51
+36        </provider>
+37
+38        <activity
+38-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:28:9-39:20
+39            android:name="peace_shillong.hiot.SelectionActivity"
+39-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:30:13-65
+40            android:configChanges="orientation|screenSize|keyboardHidden"
+40-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:29:13-74
+41            android:exported="true"
+41-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:33:13-36
+42            android:label="Hebrew Interlinear OT"
+42-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:31:13-50
+43            android:theme="@style/Theme.AppCompat.NoActionBar" >
+43-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:32:13-63
+44            <intent-filter>
+44-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:34:13-38:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:35:17-69
+45-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:35:25-66
+46                <action android:name="android.intent.action.VIEW" />
+46-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:36:17-69
+46-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:36:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:37:17-77
+48-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:37:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:40:9-46:20
+52            android:name="peace_shillong.hiot.MainActivity"
+52-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:41:13-60
+53            android:label="@string/app_name" >
+53-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:42:13-45
+54            <meta-data
+54-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:43:13-45:73
+55                android:name="android.support.PARENT_ACTIVITY"
+55-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:44:17-63
+56                android:value="peace_shillong.hiot.SelectionActivity" />
+56-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:45:17-70
+57        </activity>
+58        <activity
+58-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:47:9-50:20
+59            android:name="peace_shillong.hiot.SettingsActivity"
+59-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:48:13-64
+60            android:label="@string/title_activity_settings" >
+60-->/Users/peace/AndroidStudioProjects/Hebrew-Interlinear-Old-Testament-Android/app/src/main/AndroidManifest.xml:49:13-60
+61        </activity>
+62        <activity
+62-->[com.karumi:dexter:6.0.0] /Users/peace/.gradle/caches/transforms-3/97d6264046cb22a134f510fe507c6c71/transformed/jetified-dexter-6.0.0/AndroidManifest.xml:27:9-29:72
+63            android:name="com.karumi.dexter.DexterActivity"
+63-->[com.karumi:dexter:6.0.0] /Users/peace/.gradle/caches/transforms-3/97d6264046cb22a134f510fe507c6c71/transformed/jetified-dexter-6.0.0/AndroidManifest.xml:28:13-60
+64            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+64-->[com.karumi:dexter:6.0.0] /Users/peace/.gradle/caches/transforms-3/97d6264046cb22a134f510fe507c6c71/transformed/jetified-dexter-6.0.0/AndroidManifest.xml:29:13-69
+65
+66        <service
+66-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:15:9-21:19
+67            android:name="com.google.firebase.components.ComponentDiscoveryService"
+67-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:16:13-84
+68            android:directBootAware="true"
+68-->[com.google.firebase:firebase-common:20.0.0] /Users/peace/.gradle/caches/transforms-3/fd92f16473192e9c32f88abcddf6c924/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+69            android:exported="false" >
+69-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:17:13-37
+70            <meta-data
+70-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:18:13-20:85
+71                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+71-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:19:17-115
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:20:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/peace/.gradle/caches/transforms-3/d2fadd7243e5c275ee04a4331b7f80fc/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/peace/.gradle/caches/transforms-3/d2fadd7243e5c275ee04a4331b7f80fc/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/peace/.gradle/caches/transforms-3/d2fadd7243e5c275ee04a4331b7f80fc/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-installations:17.0.0] /Users/peace/.gradle/caches/transforms-3/5ef9859bc1322ca5534d6aab2b3265e8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+77                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+77-->[com.google.firebase:firebase-installations:17.0.0] /Users/peace/.gradle/caches/transforms-3/5ef9859bc1322ca5534d6aab2b3265e8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-installations:17.0.0] /Users/peace/.gradle/caches/transforms-3/5ef9859bc1322ca5534d6aab2b3265e8/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+79        </service>
+80
+81        <receiver
+81-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+82            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+82-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+83            android:enabled="true"
+83-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+84            android:exported="false" >
+84-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+85        </receiver>
+86
+87        <service
+87-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+88            android:name="com.google.android.gms.measurement.AppMeasurementService"
+88-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+90            android:exported="false" />
+90-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+91        <service
+91-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+92            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+92-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+93            android:enabled="true"
+93-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+95            android:permission="android.permission.BIND_JOB_SERVICE" />
+95-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+96
+97        <provider
+97-->[com.google.firebase:firebase-common:20.0.0] /Users/peace/.gradle/caches/transforms-3/fd92f16473192e9c32f88abcddf6c924/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+98            android:name="com.google.firebase.provider.FirebaseInitProvider"
+98-->[com.google.firebase:firebase-common:20.0.0] /Users/peace/.gradle/caches/transforms-3/fd92f16473192e9c32f88abcddf6c924/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+99            android:authorities="peace_shillong.hiot.firebaseinitprovider"
+99-->[com.google.firebase:firebase-common:20.0.0] /Users/peace/.gradle/caches/transforms-3/fd92f16473192e9c32f88abcddf6c924/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+100            android:directBootAware="true"
+100-->[com.google.firebase:firebase-common:20.0.0] /Users/peace/.gradle/caches/transforms-3/fd92f16473192e9c32f88abcddf6c924/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+101            android:exported="false"
+101-->[com.google.firebase:firebase-common:20.0.0] /Users/peace/.gradle/caches/transforms-3/fd92f16473192e9c32f88abcddf6c924/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+102            android:initOrder="100" />
+102-->[com.google.firebase:firebase-common:20.0.0] /Users/peace/.gradle/caches/transforms-3/fd92f16473192e9c32f88abcddf6c924/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:18.0.0] /Users/peace/.gradle/caches/transforms-3/2e1ead7edabbe48fb369066280760359/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:18.0.0] /Users/peace/.gradle/caches/transforms-3/2e1ead7edabbe48fb369066280760359/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:18.0.0] /Users/peace/.gradle/caches/transforms-3/2e1ead7edabbe48fb369066280760359/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+107
+108        <service
+108-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/peace/.gradle/caches/transforms-3/6e7fe65965690c2e2b1be27c1dd6e8d9/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+109            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+109-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/peace/.gradle/caches/transforms-3/6e7fe65965690c2e2b1be27c1dd6e8d9/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+110            android:exported="false" >
+110-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/peace/.gradle/caches/transforms-3/6e7fe65965690c2e2b1be27c1dd6e8d9/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+111            <meta-data
+111-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/peace/.gradle/caches/transforms-3/6e7fe65965690c2e2b1be27c1dd6e8d9/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+112                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+112-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/peace/.gradle/caches/transforms-3/6e7fe65965690c2e2b1be27c1dd6e8d9/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+113                android:value="cct" />
+113-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/peace/.gradle/caches/transforms-3/6e7fe65965690c2e2b1be27c1dd6e8d9/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+114        </service>
+115        <service
+115-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/peace/.gradle/caches/transforms-3/b686930439c04350dca2d2de0049e047/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+116            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+116-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/peace/.gradle/caches/transforms-3/b686930439c04350dca2d2de0049e047/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+117            android:exported="false"
+117-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/peace/.gradle/caches/transforms-3/b686930439c04350dca2d2de0049e047/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+118            android:permission="android.permission.BIND_JOB_SERVICE" >
+118-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/peace/.gradle/caches/transforms-3/b686930439c04350dca2d2de0049e047/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+119        </service>
+120
+121        <receiver
+121-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/peace/.gradle/caches/transforms-3/b686930439c04350dca2d2de0049e047/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+122            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+122-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/peace/.gradle/caches/transforms-3/b686930439c04350dca2d2de0049e047/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+123            android:exported="false" />
+123-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/peace/.gradle/caches/transforms-3/b686930439c04350dca2d2de0049e047/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+124    </application>
+125
+126</manifest>
