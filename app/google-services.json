@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "231598146189",
+    "firebase_url": "https://hebrew-interlinear-old-testame.firebaseio.com",
+    "project_id": "hebrew-interlinear-old-testame",
+    "storage_bucket": "hebrew-interlinear-old-testame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231598146189:android:eeeca081939686d68158c4",
+        "android_client_info": {
+          "package_name": "peace_shillong.hiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231598146189-vr1si9sf4n9ftd0pu5evsdno4ihjik1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "peace_shillong.hiot",
+            "certificate_hash": "ae5cffbc092c2d0e2fd909674200d947700f8a45"
+          }
+        },
+        {
+          "client_id": "231598146189-j3j3u8iv2dtnqkj6o3cnm8gvin7vjius.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcwvyupIbIMR-g46Efnx8jF8-NoWyOths"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231598146189-j3j3u8iv2dtnqkj6o3cnm8gvin7vjius.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
