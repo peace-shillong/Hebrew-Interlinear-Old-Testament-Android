@@ -17,8 +17,8 @@ android {
         applicationId 'peace_shillong.hiot'
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 11
-        versionName "1.1.1"
+        versionCode 12
+        versionName "1.1.2"
         //signingConfig signingConfigs.sign
     }
     buildTypes {
