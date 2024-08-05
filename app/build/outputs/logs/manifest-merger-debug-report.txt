@@ -8,7 +8,7 @@ MERGED from [com.google.firebase:firebase-analytics:20.1.0] /Users/peace/.gradle
 MERGED from [com.karumi:dexter:6.0.0] /Users/peace/.gradle/caches/transforms-3/97d6264046cb22a134f510fe507c6c71/transformed/jetified-dexter-6.0.0/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/peace/.gradle/caches/transforms-3/19b8efb5385dd8c474a75051903725f0/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/peace/.gradle/caches/transforms-3/ed710e9b44785b5b2313b4ead2a7f8e8/transformed/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/9b0c25cdf9771c25f49a8fddc03e7446/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:1:1-7:12
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/f6dcedf935f9ec7a67b29bdda48faa3a/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:1:1-7:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/peace/.gradle/caches/transforms-3/a6730570a7e42d37344f1174a9dc03af/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:17:1-46:12
@@ -145,8 +145,8 @@ MERGED from [com.karumi:dexter:6.0.0] /Users/peace/.gradle/caches/transforms-3/9
 MERGED from [com.karumi:dexter:6.0.0] /Users/peace/.gradle/caches/transforms-3/97d6264046cb22a134f510fe507c6c71/transformed/jetified-dexter-6.0.0/AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/peace/.gradle/caches/transforms-3/19b8efb5385dd8c474a75051903725f0/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/peace/.gradle/caches/transforms-3/19b8efb5385dd8c474a75051903725f0/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/9b0c25cdf9771c25f49a8fddc03e7446/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:5:5-19
-MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/9b0c25cdf9771c25f49a8fddc03e7446/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:5:5-19
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/f6dcedf935f9ec7a67b29bdda48faa3a/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:5:5-19
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/f6dcedf935f9ec7a67b29bdda48faa3a/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:5:5-19
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.android.gms:play-services-measurement:20.1.0] /Users/peace/.gradle/caches/transforms-3/ea1b501c39e078d2beb6732bb31e9fc4/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:28:5-44:19
@@ -267,8 +267,8 @@ MERGED from [com.google.android.material:material:1.0.0] /Users/peace/.gradle/ca
 MERGED from [com.google.android.material:material:1.0.0] /Users/peace/.gradle/caches/transforms-3/19b8efb5385dd8c474a75051903725f0/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/peace/.gradle/caches/transforms-3/ed710e9b44785b5b2313b4ead2a7f8e8/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/peace/.gradle/caches/transforms-3/ed710e9b44785b5b2313b4ead2a7f8e8/transformed/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/9b0c25cdf9771c25f49a8fddc03e7446/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:3:5-72
-MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/9b0c25cdf9771c25f49a8fddc03e7446/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:3:5-72
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/f6dcedf935f9ec7a67b29bdda48faa3a/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:3:5-72
+MERGED from [com.github.johnkil.android-progressfragment:progressfragment:1.4.0] /Users/peace/.gradle/caches/transforms-3/f6dcedf935f9ec7a67b29bdda48faa3a/transformed/jetified-progressfragment-1.4.0/AndroidManifest.xml:3:5-72
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/peace/.gradle/caches/transforms-3/a6730570a7e42d37344f1174a9dc03af/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/peace/.gradle/caches/transforms-3/a6730570a7e42d37344f1174a9dc03af/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.8] /Users/peace/.gradle/caches/transforms-3/4141111b461d806982a8228693827d20/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:6:5-8:41
